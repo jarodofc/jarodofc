@@ -18,8 +18,8 @@
 <br><br>
 
 <sub>
-  <a href="mailto:seu@email.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a> ·
+  <a href="mailto:contato@jarod.com.br">contato@jarod.com.br</a> ·
+  <a href="https://www.linkedin.com/in/jarod-m-m-jr-5581b4287/">LinkedIn</a> ·
   <a href="https://github.com/jarodofc">GitHub</a>
 </sub>
 
