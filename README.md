@@ -1,19 +1,14 @@
 <div align="center">
 
-<img src="./hero.svg" width="860" />
+<img src="./hero.svg" width="860" alt="Jarod M M Jr" />
 
 <br><br>
 
-<img src="./services.svg" width="860" />
+<img src="./services.svg" width="860" alt="Serviços" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=python,ts,go,postgres,docker,aws,linux,git&theme=dark&perline=8" alt="Stack" height="48" />
 
 <br><br>
 
