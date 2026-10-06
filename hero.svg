@@ -1,3 +1,25 @@
-<text x="40" y="152" class="role">contato@jarod.com.br · linkedin.com/in/jarod-m-m-jr-5581b4287</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #e6edf3; }
+    .name { font-size: 26px; font-weight: 600; }
+    .role { font-size: 14px; fill: #8b949e; }
+    .tag  { font-size: 13px; fill: #7ee787; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
 
-<text x="820" y="152" class="cursor" fill="#7ee787">_</text>
+  <rect width="860" height="180" rx="10" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="40" y="60" class="name">Jarod M M Jr</text>
+  <text x="40" y="88" class="role">Desenvolvedor Full-Stack · Consultoria Técnica · Arquitetura de Sistemas</text>
+
+  <text x="40" y="128" class="tag">$ </text>
+  <text x="60" y="128" class="tag">
+    Soluções sob medida para web, dados e infraestrutura.
+    <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.4s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="152" class="role">contato@jarod.com.br · linkedin.com/in/jarod-m-m-jr-5581b4287</text>
+
+  <text x="820" y="152" class="cursor" fill="#7ee787">_</text>
+</svg>
