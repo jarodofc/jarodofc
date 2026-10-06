@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="400" viewBox="0 0 460 400">
+  <style>
+    text { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13px; fill: #e6edf3; }
+    .key  { fill: #7ee787; }
+    .muted { fill: #8b949e; }
+    .link { fill: #58a6ff; }
+  </style>
+
+  <rect width="460" height="400" rx="8" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="24" y="36" class="key">Seu Nome</text>
+  <text x="24" y="58" class="muted">Desenvolvedor de Software</text>
+
+  <line x1="24" y1="76" x2="436" y2="76" stroke="#30363d"/>
+
+  <text x="24" y="106"><tspan class="key">Local</tspan>     São Paulo, BR</text>
+  <text x="24" y="130"><tspan class="key">Stack</tspan>     Python · TypeScript · Go</text>
+  <text x="24" y="154"><tspan class="key">Cloud</tspan>     AWS · Docker · Kubernetes</text>
+  <text x="24" y="178"><tspan class="key">Foco</tspan>      Backend · Infra · Dados</text>
+
+  <line x1="24" y1="196" x2="436" y2="196" stroke="#30363d"/>
+
+  <text x="24" y="226" class="key">Contato</text>
+  <text x="24" y="250"><tspan class="muted">GitHub</tspan>    github.com/seu-usuario</text>
+  <text x="24" y="274"><tspan class="muted">LinkedIn</tspan>  linkedin.com/in/seu-perfil</text>
+  <text x="24" y="298"><tspan class="muted">Email</tspan>     seu@email.com</text>
+
+  <line x1="24" y1="316" x2="436" y2="316" stroke="#30363d"/>
+
+  <text x="24" y="346" class="key">Status</text>
+  <text x="24" y="370"><tspan class="muted">●</tspan> Disponível para projetos</text>
+</svg>
