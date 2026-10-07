@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+  <defs>
+    <style>
+      .name { font-family: ui-monospace, Menlo, monospace; font-size: 34px; font-weight: 700; fill: #e6edf3; letter-spacing: 0.5px; }
+      .role { font-family: ui-monospace, Menlo, monospace; font-size: 14px; fill: #00ff9d; letter-spacing: 0.5px; }
+      .bio  { font-family: ui-monospace, Menlo, monospace; font-size: 13px; fill: #7d8590; }
+      .hud  { font-family: ui-monospace, Menlo, monospace; font-size: 11px; fill: #7d8590; letter-spacing: 1px; }
+      .dot  { fill: #00ff9d; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+      .dot { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="860" height="200" rx="12" fill="#0a0e14"/>
+  <rect x="0.5" y="0.5" width="859" height="199" rx="12" fill="none" stroke="#21262d"/>
+
+  <circle cx="24" cy="24" r="4" class="dot"/>
+  <text class="hud" x="36" y="28">ONLINE</text>
+  <text class="hud" x="836" y="28" text-anchor="end">v2026.10</text>
+
+  <line x1="24" y1="44" x2="836" y2="44" stroke="#21262d"/>
+
+  <text class="name" x="24" y="100">Jarod M M Jr</text>
+  <text class="role" x="24" y="128">Full-Stack  ·  Arquitetura  ·  DevOps</text>
+  <text class="bio"  x="24" y="164">Soluções sob medida em web, dados e infraestrutura.</text>
+</svg>
