@@ -1,48 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 116" width="840" height="116" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 120" width="840" height="120" fill="none">
   <defs>
     <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .cta-title { font-size: 16px; font-weight: 600; fill: #F1F5F9; letter-spacing: -0.2px; }
-      .cta-sub { font-size: 12.5px; font-weight: 400; fill: #94A3B8; }
-      .chip-text { font-size: 12.5px; font-weight: 500; fill: #E2E8F0; }
+      .cta-title { font-size: 14.5px; font-weight: 600; fill: #F8FAFC; letter-spacing: 0.4px; }
+      .cta-sub { font-size: 12.5px; font-weight: 400; fill: #8B949E; }
+      .chip-text { font-size: 12px; font-weight: 500; fill: #E2E8F0; }
     </style>
   </defs>
 
   <!-- Base Surface -->
-  <rect x="1" y="1" width="838" height="114" rx="20" fill="#11141B" stroke="#252B37" stroke-width="1" />
+  <rect x="1" y="1" width="838" height="118" rx="16" fill="#0B0C10" stroke="#1F242D" stroke-width="1" />
+
+  <!-- Left Crimson Accent Line -->
+  <rect x="1" y="28" width="2.5" height="64" rx="1.25" fill="#E11D48" />
 
   <!-- Left CTA -->
-  <text x="34" y="51" class="sans cta-title">Conecte-se</text>
-  <text x="34" y="73" class="sans cta-sub">Canais diretos para projetos e consultoria.</text>
+  <text x="32" y="51" class="mono cta-title">
+    <tspan fill="#E11D48">&gt; </tspan>ESTABLISH_CONNECTION
+  </text>
+  <text x="32" y="74" class="sans cta-sub">Canais diretos para projetos, consultoria e parcerias.</text>
 
-  <!-- Chip 1: Website -->
-  <g transform="translate(422, 39)">
-    <rect width="142" height="38" rx="19" fill="#171E2E" stroke="#2B3A57" stroke-width="1" />
-    <g transform="translate(15, 11)">
-      <circle cx="8" cy="8" r="6.5" stroke="#60A5FA" stroke-width="1.5" />
-      <path d="M1.5 8H14.5M8 1.5C9.8 3.3 10.8 5.6 10.8 8C10.8 10.4 9.8 12.7 8 14.5C6.2 12.7 5.2 10.4 5.2 8C5.2 5.6 6.2 3.3 8 1.5Z" stroke="#60A5FA" stroke-width="1.4" />
+  <!-- Chip 1: Website (Primary Crimson Accent) -->
+  <g transform="translate(416, 41)">
+    <rect width="146" height="38" rx="10" fill="#191216" stroke="#4C1D2B" stroke-width="1" />
+    <g transform="translate(14, 11)">
+      <circle cx="8" cy="8" r="6.5" stroke="#E11D48" stroke-width="1.5" />
+      <path d="M1.5 8H14.5M8 1.5C9.8 3.3 10.8 5.6 10.8 8C10.8 10.4 9.8 12.7 8 14.5C6.2 12.7 5.2 10.4 5.2 8C5.2 5.6 6.2 3.3 8 1.5Z" stroke="#E11D48" stroke-width="1.4" />
     </g>
-    <text x="40" y="23.5" class="sans chip-text">jarod.com.br</text>
+    <text x="38" y="23" class="mono chip-text">jarod.com.br</text>
   </g>
 
   <!-- Chip 2: Email -->
-  <g transform="translate(574, 39)">
-    <rect width="104" height="38" rx="19" fill="#161B25" stroke="#262E3E" stroke-width="1" />
-    <g transform="translate(15, 11)">
-      <rect x="1.5" y="3" width="13" height="10" rx="2" stroke="#818CF8" stroke-width="1.5" />
-      <path d="M2.5 4.5L8 8.8L13.5 4.5" stroke="#818CF8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <g transform="translate(572, 41)">
+    <rect width="106" height="38" rx="10" fill="#12151C" stroke="#242B38" stroke-width="1" />
+    <g transform="translate(14, 11)">
+      <rect x="1.5" y="3" width="13" height="10" rx="2" stroke="#94A3B8" stroke-width="1.5" />
+      <path d="M2.5 4.5L8 8.8L13.5 4.5" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </g>
-    <text x="40" y="23.5" class="sans chip-text">E-mail</text>
+    <text x="38" y="23" class="mono chip-text">E-mail</text>
   </g>
 
   <!-- Chip 3: Instagram -->
-  <g transform="translate(688, 39)">
-    <rect width="120" height="38" rx="19" fill="#161B25" stroke="#262E3E" stroke-width="1" />
-    <g transform="translate(15, 11)">
-      <rect x="1.5" y="1.5" width="13" height="13" rx="3.8" stroke="#A78BFA" stroke-width="1.5" />
-      <circle cx="8" cy="8" r="3" stroke="#A78BFA" stroke-width="1.5" />
-      <circle cx="11.6" cy="4.4" r="0.8" fill="#A78BFA" />
+  <g transform="translate(688, 41)">
+    <rect width="120" height="38" rx="10" fill="#12151C" stroke="#242B38" stroke-width="1" />
+    <g transform="translate(14, 11)">
+      <rect x="1.5" y="1.5" width="13" height="13" rx="3.5" stroke="#94A3B8" stroke-width="1.5" />
+      <circle cx="8" cy="8" r="3" stroke="#94A3B8" stroke-width="1.5" />
+      <circle cx="11.6" cy="4.4" r="0.8" fill="#E11D48" />
     </g>
-    <text x="39" y="23.5" class="sans chip-text">@jarodofc</text>
+    <text x="38" y="23" class="mono chip-text">@jarodofc</text>
   </g>
 </svg>
