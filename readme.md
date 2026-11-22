@@ -1,15 +1,15 @@
 <div align="center">
   <p>
     <a href="https://jarod.com.br" target="_blank">
-      <img src="./hero.svg?v=2" width="100%" alt="Jarod M M Jr - Terminal Profile" />
+      <img src="./hero-mr.svg" width="100%" alt="Jarod M M Jr - Terminal Profile" />
     </a>
   </p>
   <p>
-    <img src="./services.svg?v=2" width="100%" alt="Módulos e Serviços" />
+    <img src="./services-mr.svg" width="100%" alt="Módulos e Serviços" />
   </p>
   <p>
     <a href="https://jarod.com.br" target="_blank">
-      <img src="./footer.svg?v=2" width="100%" alt="Estabelecer Conexão" />
+      <img src="./footer-mr.svg" width="100%" alt="Estabelecer Conexão" />
     </a>
   </p>
   <p>
