@@ -1,84 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 326" width="840" height="326" fill="none">
-  <defs>
-    <style>
-      .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .overline { font-size: 11.5px; font-weight: 600; fill: #CBD5E1; letter-spacing: 1.2px; }
-      .counter { font-size: 11px; font-weight: 500; fill: #64748B; letter-spacing: 0.5px; }
-      .idx { font-size: 11px; font-weight: 600; fill: #334155; }
-      .card-title { font-size: 14.5px; font-weight: 600; fill: #F8FAFC; letter-spacing: -0.1px; }
-      .card-desc { font-size: 12.5px; font-weight: 400; fill: #8B949E; }
-    </style>
-  </defs>
-
-  <!-- Outer Surface -->
-  <rect x="1" y="1" width="838" height="324" rx="16" fill="#0B0C10" stroke="#1F242D" stroke-width="1" />
-
-  <!-- Section Header -->
-  <rect x="32" y="23" width="3" height="14" rx="1.5" fill="#E11D48" />
-  <text x="45" y="34" class="mono overline">MODULES // ATUAÇÃO &amp; SERVIÇOS</text>
-  <text x="808" y="34" text-anchor="end" class="mono counter">[ 04 ACTIVE DAEMONS ]</text>
-
-  <!-- Module 01: Consultoria Automotiva -->
-  <g transform="translate(32, 58)">
-    <rect width="380" height="110" rx="12" fill="#11141B" stroke="#1E2430" stroke-width="1" />
-    <text x="362" y="26" text-anchor="end" class="mono idx">01</text>
-    <rect x="18" y="22" width="42" height="42" rx="10" fill="#1A1216" stroke="#421C27" stroke-width="1" />
-    <!-- Vector Car Icon -->
-    <g transform="translate(29, 33)">
-      <path d="M3 12L4.8 6.8C5.2 5.7 6.2 5 7.4 5H12.6C13.8 5 14.8 5.7 15.2 6.8L17 12M2 12H18C18.6 12 19 12.4 19 13V15.5C19 16.1 18.6 16.5 18 16.5H17V17.5C17 18.1 16.6 18.5 16 18.5H15C14.4 18.5 14 18.1 14 17.5V16.5H6V17.5C6 18.1 5.6 18.5 5 18.5H4C3.4 18.5 3 18.1 3 17.5V16.5H2C1.4 16.5 1 16.1 1 15.5V13C1 12.4 1.4 12 2 12Z" stroke="#E11D48" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <circle cx="5.5" cy="14.2" r="0.9" fill="#E11D48" />
-      <circle cx="14.5" cy="14.2" r="0.9" fill="#E11D48" />
-    </g>
-    <text x="76" y="40" class="sans card-title">Consultoria Automotiva</text>
-    <text x="76" y="63" class="sans card-desc">Compra, venda e repasse de seminovos</text>
-    <text x="76" y="81" class="sans card-desc">com curadoria técnica e transparência.</text>
-  </g>
-
-  <!-- Module 02: Documentação & Despachante -->
-  <g transform="translate(428, 58)">
-    <rect width="380" height="110" rx="12" fill="#11141B" stroke="#1E2430" stroke-width="1" />
-    <text x="362" y="26" text-anchor="end" class="mono idx">02</text>
-    <rect x="18" y="22" width="42" height="42" rx="10" fill="#161A22" stroke="#2A3140" stroke-width="1" />
-    <!-- Vector Document Check Icon -->
-    <g transform="translate(29, 33)">
-      <path d="M5 2.5H11.5L16 7V16.5C16 17.3 15.3 18 14.5 18H5C4.2 18 3.5 17.3 3.5 16.5V4C3.5 3.2 4.2 2.5 5 2.5Z" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M11 2.5V7.5H16" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M7 12.5L9 14.5L13 10.5" stroke="#E11D48" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-    </g>
-    <text x="76" y="40" class="sans card-title">Documentação &amp; Despachante</text>
-    <text x="76" y="63" class="sans card-desc">Emissão de CRLV, ATPV-e, comunicado</text>
-    <text x="76" y="81" class="sans card-desc">de venda e regularização em MG.</text>
-  </g>
-
-  <!-- Module 03: Financiamento & Proteção -->
-  <g transform="translate(32, 184)">
-    <rect width="380" height="110" rx="12" fill="#11141B" stroke="#1E2430" stroke-width="1" />
-    <text x="362" y="26" text-anchor="end" class="mono idx">03</text>
-    <rect x="18" y="22" width="42" height="42" rx="10" fill="#111D17" stroke="#1E3D2D" stroke-width="1" />
-    <!-- Vector Shield Icon -->
-    <g transform="translate(29, 33)">
-      <path d="M10 2L16.5 4.6V9.8C16.5 14 13.7 17.2 10 18.5C6.3 17.2 3.5 14 3.5 9.8V4.6L10 2Z" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M7.2 10.2L9.2 12.2L13 8.4" stroke="#22C55E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-    </g>
-    <text x="76" y="40" class="sans card-title">Financiamento &amp; Proteção</text>
-    <text x="76" y="63" class="sans card-desc">Simulação bancária externa e planos</text>
-    <text x="76" y="81" class="sans card-desc">de proteção veicular sob medida.</text>
-  </g>
-
-  <!-- Module 04: Web, UI & Automação -->
-  <g transform="translate(428, 184)">
-    <rect width="380" height="110" rx="12" fill="#11141B" stroke="#1E2430" stroke-width="1" />
-    <text x="362" y="26" text-anchor="end" class="mono idx">04</text>
-    <rect x="18" y="22" width="42" height="42" rx="10" fill="#1A1216" stroke="#421C27" stroke-width="1" />
-    <!-- Vector Terminal Icon -->
-    <g transform="translate(29, 33)">
-      <rect x="2" y="3.5" width="16" height="13" rx="2.5" stroke="#E11D48" stroke-width="1.5" />
-      <path d="M5.5 8L8 10.2L5.5 12.4" stroke="#F8FAFC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <line x1="10.2" y1="12.4" x2="14.2" y2="12.4" stroke="#E11D48" stroke-width="1.5" stroke-linecap="round" />
-    </g>
-    <text x="76" y="40" class="sans card-title">Web, UI &amp; Automação</text>
-    <text x="76" y="63" class="sans card-desc">Interfaces minimalistas, scripts e</text>
-    <text x="76" y="81" class="sans card-desc">ferramentas digitais sob demanda.</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="453" viewBox="0 0 1100 453" role="img" aria-labelledby="title desc">
+<title id="title">Active modules | Serviços Jarod</title>
+<desc id="desc">Quatro módulos de atuação: consultoria automotiva, documentação veicular, financiamento e proteção, web e automação.</desc>
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#A1A1AA" fill-opacity=".1"/></pattern>
+<style>.sans{font-family:Inter,'Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono',Consolas,Menlo,monospace}</style></defs>
+<rect x="1" y="1" width="1098" height="451" rx="18" fill="#0A0C12" stroke="#34313A" stroke-width="2"/>
+<rect x="1" y="1" width="1098" height="451" rx="18" fill="url(#dots)"/>
+<rect x="40" y="34" width="6" height="32" rx="2" fill="#F12A48"/>
+<text x="60" y="58" class="mono" font-size="21" letter-spacing="1.7" font-weight="700" fill="#F4F5F7">&gt; ACTIVE_MODULES</text>
+<text x="1058" y="58" text-anchor="end" class="mono" font-size="15" letter-spacing="1.3" fill="#A9ADB8">04 / SERVICES</text>
+<path d="M40 81H1060" stroke="#292C35"/>
+<g transform="translate(40 106)">
+ <rect width="500" height="144" rx="11" fill="#13151C" stroke="#36343D" stroke-width="1.4"/>
+ <path d="M0 17V0H89" fill="none" stroke="#F12A48" stroke-width="2.5"/>
+ <text x="468" y="29" text-anchor="end" class="mono" font-size="13" fill="#717682" letter-spacing="1.3">[ 01 ]</text>
+ <rect x="22" y="42" width="57" height="57" rx="12" fill="#21161C" stroke="#5A2936"/>
+ <g transform="translate(31 51)" fill="none" stroke="#F12A48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 14 3-7h19l4 7M4 14h26a3 3 0 0 1 3 3v9H1v-9a3 3 0 0 1 3-3Z"/><path d="M6 26v4m22-4v4m-20-10h3m12 0h3"/></g>
+ <text x="101" y="59" class="sans" font-size="20" font-weight="750" fill="#F4F5F7">CONSULTORIA AUTOMOTIVA</text>
+ <text x="102" y="87" class="sans" font-size="16.5" fill="#A6ADB9">Compra, venda e curadoria de</text>
+ <text x="102" y="110" class="sans" font-size="16.5" fill="#A6ADB9">veículos seminovos.</text>
+ <path d="M22 126h34" stroke="#F12A48" stroke-width="2" opacity=".55"/>
+ </g><g transform="translate(560 106)">
+ <rect width="500" height="144" rx="11" fill="#13151C" stroke="#36343D" stroke-width="1.4"/>
+ <path d="M0 17V0H89" fill="none" stroke="#F12A48" stroke-width="2.5"/>
+ <text x="468" y="29" text-anchor="end" class="mono" font-size="13" fill="#717682" letter-spacing="1.3">[ 02 ]</text>
+ <rect x="22" y="42" width="57" height="57" rx="12" fill="#21161C" stroke="#5A2936"/>
+ <g transform="translate(31 51)" fill="none" stroke="#F12A48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2h15l7 7v23H7a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Z"/><path d="M22 2v8h7M10 19l5 5 9-10"/></g>
+ <text x="101" y="59" class="sans" font-size="20" font-weight="750" fill="#F4F5F7">DOCUMENTAÇÃO VEICULAR</text>
+ <text x="102" y="87" class="sans" font-size="16.5" fill="#A6ADB9">CRLV, ATPV-e, comunicação</text>
+ <text x="102" y="110" class="sans" font-size="16.5" fill="#A6ADB9">de venda e regularização em MG.</text>
+ <path d="M22 126h34" stroke="#F12A48" stroke-width="2" opacity=".55"/>
+ </g><g transform="translate(40 269)">
+ <rect width="500" height="144" rx="11" fill="#13151C" stroke="#36343D" stroke-width="1.4"/>
+ <path d="M0 17V0H89" fill="none" stroke="#F12A48" stroke-width="2.5"/>
+ <text x="468" y="29" text-anchor="end" class="mono" font-size="13" fill="#717682" letter-spacing="1.3">[ 03 ]</text>
+ <rect x="22" y="42" width="57" height="57" rx="12" fill="#21161C" stroke="#5A2936"/>
+ <g transform="translate(31 51)" fill="none" stroke="#F12A48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 14 5v10c0 8-6 13-14 16C9 30 3 25 3 17V7l14-5Z"/><path d="m11 17 4 4 8-9"/></g>
+ <text x="101" y="59" class="sans" font-size="20" font-weight="750" fill="#F4F5F7">FINANCIAMENTO E PROTEÇÃO</text>
+ <text x="102" y="87" class="sans" font-size="16.5" fill="#A6ADB9">Apoio em simulações e</text>
+ <text x="102" y="110" class="sans" font-size="16.5" fill="#A6ADB9">soluções de proteção veicular.</text>
+ <path d="M22 126h34" stroke="#F12A48" stroke-width="2" opacity=".55"/>
+ </g><g transform="translate(560 269)">
+ <rect width="500" height="144" rx="11" fill="#13151C" stroke="#36343D" stroke-width="1.4"/>
+ <path d="M0 17V0H89" fill="none" stroke="#F12A48" stroke-width="2.5"/>
+ <text x="468" y="29" text-anchor="end" class="mono" font-size="13" fill="#717682" letter-spacing="1.3">[ 04 ]</text>
+ <rect x="22" y="42" width="57" height="57" rx="12" fill="#21161C" stroke="#5A2936"/>
+ <g transform="translate(31 51)" fill="none" stroke="#F12A48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="30" height="24" rx="4"/><path d="m9 12 5 5-5 5m10 0h7"/></g>
+ <text x="101" y="59" class="sans" font-size="20" font-weight="750" fill="#F4F5F7">WEB / UI / AUTOMAÇÃO</text>
+ <text x="102" y="87" class="sans" font-size="16.5" fill="#A6ADB9">Aplicações web, interfaces</text>
+ <text x="102" y="110" class="sans" font-size="16.5" fill="#A6ADB9">e ferramentas digitais.</text>
+ <path d="M22 126h34" stroke="#F12A48" stroke-width="2" opacity=".55"/>
+ </g>
 </svg>

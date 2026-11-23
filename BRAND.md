@@ -1,33 +1,52 @@
-# Identidade visual | Jarod
+# JAROD.SYSTEM · Manual de identidade
 
-Este repositório é o perfil público do GitHub de **Jarod M. M. Jr.**. O README foi pensado para comunicar de forma clara a atuação profissional, projetos e canais de contato.
+> Perfil autoral com referências à linguagem visual de terminais, thrillers tecnológicos e interfaces hacker cinematográficas. O projeto não usa marcas, logotipos ou elementos oficiais de produções audiovisuais.
 
-## Direção de arte
+## Conceito
 
-- **Conceito:** precisão digital, superfícies suaves e minimalismo funcional, com referências discretas a interfaces de terminal, Material UX e Liquid Glass.
-- **Marca:** monograma geométrico `J_`, construído em vetores no cabeçalho.
-- **Paleta escura:** fundo `#090E19`, superfície `#182440`, texto `#F7FAFF`.
-- **Paleta clara:** fundo `#F8FAFF`, superfície `#EAF0FB`, texto `#17223B`.
-- **Acentos:** coral `#FF5579` e azul `#7BA8FF`. O tema claro utiliza variantes com contraste reforçado.
-- **Tipografia:** pilha de fontes de sistema com preferência por Inter; Consolas/Menlo nas microetiquetas técnicas. Nenhuma fonte remota é necessária.
-- **Ícones:** SVGs vetoriais locais, com traço arredondado e espessura consistente.
+**Precisão, contraste, silêncio visual.** A direção de arte utiliza superfícies pretas, linhas finas, grids quase invisíveis e vermelho como elemento de decisão. O monograma `J_` representa assinatura pessoal e cursor de terminal. A influência de *Mr. Robot* aparece no clima e na composição, preservando identidade própria.
 
-## Arquivos de interface
+### Tokens
 
-| Arquivo | Função |
+| Uso | Cor |
 | --- | --- |
-| `readme.md` | Conteúdo semântico, cartões, links e navegação do perfil |
-| `hero-mr.svg` | Banner principal no tema escuro |
-| `hero-light.svg` | Banner principal no tema claro |
-| `footer-mr.svg` | Chamada de contato no tema escuro |
-| `footer-light.svg` | Chamada de contato no tema claro |
-| `assets/icons/*.svg` | Ícones vetoriais dos quatro serviços |
-| `services-mr.svg` | Composição original preservada como referência histórica |
+| Fundo raiz | `#08090D` |
+| Painel | `#13151C` |
+| Bordas | `#34313A` |
+| Texto principal | `#F4F5F7` |
+| Texto secundário | `#A6ADB9` |
+| Vermelho de ação | `#F12A48` |
 
-## Boas práticas
+Tipografia: `Inter, Segoe UI, Arial, sans-serif` para títulos e `JetBrains Mono, Consolas, Menlo, monospace` para metadados. Fontes são pilhas de fallback: nenhum serviço externo é carregado pelos SVGs.
 
-1. Preserve títulos, textos e links importantes como Markdown ou HTML semântico; não esconda informações críticas somente em SVG.
-2. Para elementos ilustrativos, crie as duas variantes de tema e use `<picture>` com `prefers-color-scheme`.
-3. Teste a leitura em larguras pequenas; evite concentrar parágrafos inteiros dentro de imagens.
-4. Não adicione rastreadores, scripts, animações contínuas ou fontes externas ao perfil.
-5. Mantenha as URLs e descrições dos projetos consistentes com seus respectivos repositórios.
+## Mapa dos arquivos
+
+```text
+jarodofc/
+├── README.md                    # Conteúdo semântico do perfil
+├── BRAND.md                     # Este manual
+├── hero-mr.svg                  # Identidade principal / console
+├── services-mr.svg              # Painéis vetoriais de atuação
+├── footer-mr.svg                # Chamada de contato
+└── assets/
+    └── brand/
+        └── jarod-mark.svg      # Marca J_ isolada e reutilizável
+```
+
+## Regras de manutenção
+
+1. **Tema preto fixo.** O mesmo conjunto visual deve ser visto no GitHub claro e escuro.
+2. **Conteúdo em Markdown.** Nomes, contexto, projetos e endereços de contato devem continuar em texto e links clicáveis. SVG é apresentação e reforço, não única fonte de informação.
+3. **Sem JavaScript embutido, imagens remotas ou animação contínua.** SVGs são autossuficientes, seguros para embedding por `<img>`.
+4. **Acessibilidade.** Use `alt` no README, `title/desc` nos vetores e tamanhos legíveis em telas pequenas.
+5. **Sem métricas artificiais.** Indicadores do terminal como `SESSION: ACTIVE` são decorativos. Nunca representar serviços externos como disponíveis sem verificação.
+6. **Manutenção dos links.** A cada alteração de domínio ou repositório, sincronize os URLs do README.
+
+## Projetos do perfil
+
+- **zFORENSE · LÚMEN:** OSINT e investigação digital com ferramentas no navegador
+- **ZentraCast:** IPTV web e integração com Web Video Caster
+- **zTRADING · AETHER:** painel web para análise de mercados
+- **zFLY · RotaClara:** comparador de voos com interface web
+
+A identidade pode ser reutilizada em novas apresentações do autor sem imitar diretamente personagens, empresas ou marcas de terceiros.

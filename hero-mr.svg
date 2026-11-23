@@ -1,39 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310" role="img" aria-labelledby="title desc">
-<title id="title">Jarod M. M. Jr. | Portfólio</title>
-<desc id="desc">Identidade visual de Jarod M. M. Jr., consultoria automotiva, design digital e automação em Belo Horizonte.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="432" viewBox="0 0 1100 432" role="img" aria-labelledby="title desc">
+<title id="title">JAROD // identidade digital</title>
+<desc id="desc">Cartão de perfil original estilo terminal hacker, preto e vermelho. Jarod M. M. Jr, tecnologia, design, automação e consultoria automotiva.</desc>
 <defs>
-  <linearGradient id="hdbase" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090E19"/><stop offset="1" stop-color="#182440"/></linearGradient>
-  <linearGradient id="hdaccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF5579"/><stop offset="1" stop-color="#7BA8FF"/></linearGradient>
-  <linearGradient id="hdglass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#233151" stop-opacity=".95"/><stop offset="1" stop-color="#111B31" stop-opacity=".56"/></linearGradient>
-  <radialGradient id="hdorb"><stop stop-color="#7BA8FF" stop-opacity=".22"/><stop offset="1" stop-color="#7BA8FF" stop-opacity="0"/></radialGradient>
-  <pattern id="hdgrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8794B3" stroke-width=".65" opacity=".11"/></pattern>
-  <clipPath id="hdclip"><rect x="1" y="1" width="958" height="308" rx="25"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0F14"/><stop offset=".55" stop-color="#08090D"/><stop offset="1" stop-color="#151017"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#F12A48" stop-opacity=".2"/><stop offset="1" stop-color="#F12A48" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8F9096" stroke-opacity=".09"/></pattern>
+ <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 5.5H6" stroke="#FFFFFF" stroke-opacity=".025" stroke-width=".5"/></pattern>
+ <clipPath id="clip"><rect x="1" y="1" width="1098" height="430" rx="19"/></clipPath>
+ <style>
+ .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,Menlo,monospace}
+ .sans{font-family:Inter,'Arial Narrow',Arial,Helvetica,sans-serif}
+ .cap{fill:#8B909C;font-size:16px;letter-spacing:2.4px;font-weight:600}
+ .red{fill:#F12A48}
+ </style>
 </defs>
-<rect x="1" y="1" width="958" height="308" rx="25" fill="url(#hdbase)" stroke="#33415C" stroke-width="1.3"/>
-<g clip-path="url(#hdclip)">
-  <rect x="0" y="0" width="960" height="310" fill="url(#hdgrid)"/>
-  <circle cx="795" cy="123" r="225" fill="url(#hdorb)"/>
-  <circle cx="971" cy="270" r="155" stroke="#7BA8FF" stroke-opacity=".16" stroke-width="1"/>
-  <circle cx="970" cy="270" r="195" stroke="#FF5579" stroke-opacity=".11" stroke-width="1"/>
-  <path d="M0 307H960" stroke="#FF5579" stroke-width="4" stroke-opacity=".95"/>
+<rect x="1" y="1" width="1098" height="430" rx="19" fill="url(#bg)" stroke="#34313A" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect width="1100" height="432" fill="url(#grid)"/>
+  <rect width="1100" height="432" fill="url(#scan)"/>
+  <circle cx="910" cy="247" r="320" fill="url(#glow)"/>
+  <path d="M0 429H1100" stroke="#F12A48" stroke-width="6"/>
+  <path d="M785 0H1100V432" fill="none" stroke="#F12A48" stroke-opacity=".09" stroke-width="2"/>
+  <path d="M970 70h130M1000 86h100M1020 102h80" stroke="#F12A48" stroke-opacity=".19" stroke-width="2"/>
 </g>
-<circle cx="48" cy="37" r="4.5" fill="#FF5579"/>
-<circle cx="66" cy="37" r="4.5" fill="#7BA8FF" opacity=".72"/>
-<circle cx="84" cy="37" r="4.5" fill="#90A2C1" opacity=".45"/>
-<text x="108" y="42" font-family="Consolas,Menlo,monospace" font-size="13" font-weight="600" letter-spacing="2" fill="#90A2C1">JAROD / PROFILE</text>
-<text x="909" y="42" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="12.5" letter-spacing="1.4" fill="#90A2C1">BELO HORIZONTE · BR</text>
-<line x1="48" y1="64" x2="912" y2="64" stroke="#33415C" stroke-opacity=".85"/>
-<rect x="48" y="96" width="8" height="27" rx="4" fill="url(#hdaccent)"/>
-<text x="70" y="115" font-family="Consolas,Menlo,monospace" font-size="13.5" font-weight="600" letter-spacing="2" fill="#FF5579">CREATIVE ENGINEERING</text>
-<text x="47" y="188" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="53" font-weight="750" letter-spacing="-1.8" fill="#F7FAFF">Jarod M. M. Jr.</text>
-<text x="50" y="226" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21.5" font-weight="500" fill="#BBC8DD">Tecnologia, design e soluções sob medida.</text>
-<text x="50" y="274" font-family="Consolas,Menlo,monospace" font-size="13.5" letter-spacing=".5" fill="#90A2C1"><tspan fill="#FF5579">&gt;</tspan> web / automação / consultoria automotiva <tspan fill="#FF5579">_</tspan></text>
-<g transform="translate(738 89)">
-  <rect width="170" height="170" rx="37" fill="url(#hdglass)" stroke="#33415C" stroke-width="1.3"/>
-  <rect x="13" y="13" width="144" height="144" rx="27" fill="none" stroke="#90A2C1" stroke-opacity=".19"/>
-  <path d="M73 43V99C73 116 63 125 47 125H42" fill="none" stroke="#F7FAFF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M94 125H127" fill="none" stroke="#FF5579" stroke-width="12" stroke-linecap="round"/>
-  <circle cx="132" cy="48" r="6" fill="#FF5579"/>
-  <path d="M29 30h19M30 30v19M142 121v18h-18" stroke="#7BA8FF" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+<!-- window chrome -->
+<circle cx="45" cy="36" r="5" fill="#F12A48"/>
+<circle cx="64" cy="36" r="5" fill="#5A5D65"/>
+<circle cx="83" cy="36" r="5" fill="#31343B"/>
+<text x="106" y="42" class="mono cap">JAROD.SYSTEM / PROFILE.INIT</text>
+<text x="1058" y="42" text-anchor="end" class="mono" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F12A48">● SESSION: ACTIVE</text>
+<line x1="30" y1="69" x2="1070" y2="69" stroke="#33323B" stroke-width="1.4"/>
+<!-- intro -->
+<rect x="47" y="103" width="6" height="29" rx="3" fill="#F12A48"/>
+<text x="67" y="124" class="mono" font-size="17" font-weight="700" letter-spacing="3" fill="#F12A48">IDENTITY // 001</text>
+<text x="42" y="238" class="sans" font-size="111" font-weight="800" letter-spacing="-5.5" fill="#F4F5F7">JAROD<tspan fill="#F12A48">.</tspan></text>
+<text x="49" y="297" class="sans" font-size="52" font-weight="760" letter-spacing="-1.4" fill="#F4F5F7">M. M. JR.</text>
+<path d="M47 326H657" stroke="#38323B" stroke-width="1.5"/>
+<text x="48" y="357" class="sans" font-size="21" font-weight="500" fill="#C6C9D1">TECNOLOGIA  /  DESIGN  /  AUTOMAÇÃO</text>
+<text x="48" y="392" class="mono" font-size="15" letter-spacing="1.5" fill="#8D939E"><tspan fill="#F12A48">&gt; </tspan>CONSULTORIA AUTOMOTIVA   •   BELO HORIZONTE, MG</text>
+<!-- active console panel -->
+<g transform="translate(745 96)">
+ <rect width="311" height="291" rx="13" fill="#121319" stroke="#3C3039" stroke-width="1.7"/>
+ <rect width="311" height="39" rx="13" fill="#1B171D"/>
+ <rect x="0" y="29" width="311" height="10" fill="#1B171D"/>
+ <path d="M0 39H311" stroke="#42313A"/>
+ <text x="19" y="26" class="mono" font-size="14" font-weight="700" letter-spacing="2" fill="#F12A48">JAROD://CONSOLE</text>
+ <circle cx="290" cy="20" r="4" fill="#F12A48"/>
+ <rect x="20" y="58" width="271" height="132" rx="8" fill="#090B10" stroke="#342B34"/>
+ <path d="M104 75V134C104 153 91 165 73 165H59" stroke="#F4F5F7" stroke-width="17" fill="none" stroke-linecap="square"/>
+ <path d="M131 165H181" stroke="#F12A48" stroke-width="16" stroke-linecap="square"/>
+ <path d="M211 80h51M211 94h34M211 108h45" stroke="#F12A48" stroke-opacity=".28" stroke-width="5"/>
+ <text x="22" y="221" class="mono" font-size="14.5" font-weight="600" fill="#D2D6DF"><tspan fill="#F12A48">root</tspan>@jarodofc:~$ whoami</text>
+ <text x="22" y="250" class="mono" font-size="16" fill="#F4F5F7">creative_engineer</text>
+ <text x="22" y="273" class="mono" font-size="13.5" fill="#89909D">ready_to_build = true</text>
 </g>
+<!-- corner marker -->
+<path d="M49 408h65M49 408v-10" stroke="#F12A48" stroke-width="2"/>
 </svg>
