@@ -1,52 +1,49 @@
-# JAROD.SYSTEM · Manual de identidade
+# JAROD.SYSTEM | Identidade visual 3.0
 
-> Perfil autoral com referências à linguagem visual de terminais, thrillers tecnológicos e interfaces hacker cinematográficas. O projeto não usa marcas, logotipos ou elementos oficiais de produções audiovisuais.
+Perfil GitHub com uma única composição visual contínua e identidade hacker original, inspirada em interfaces de terminais e design tecnológico. Não utiliza símbolos, marcas ou imagens protegidas da série *Mr. Robot*.
 
-## Conceito
+## Arquitetura da interface
 
-**Precisão, contraste, silêncio visual.** A direção de arte utiliza superfícies pretas, linhas finas, grids quase invisíveis e vermelho como elemento de decisão. O monograma `J_` representa assinatura pessoal e cursor de terminal. A influência de *Mr. Robot* aparece no clima e na composição, preservando identidade própria.
+- **Um painel único:** `assets/visual/profile-dark.svg` e `profile-light.svg` reúnem identidade, resumo, serviços, projetos e contato, com uma linha vertical contínua de navegação.
+- **Duas aparências:** modo escuro (*Crimson Console*) e modo claro (*Paper Terminal*), ativados automaticamente pelo `<picture>` e `prefers-color-scheme` do navegador/GitHub.
+- **Microanimação:** cursor intermitente, luz do status e linha de varredura em CSS SVG. São decorativas, podem variar por navegador/renderização e respeitam `prefers-reduced-motion`. Sem JavaScript, bibliotecas ou fontes remotas.
+- **Navegação clicável:** os quatro cartões de link são imagens SVG separadas envoltas em links HTML. As partes do painel único são visuais, pois um SVG dentro de `<img>` não oferece links independentes.
+- **Conteúdo acessível:** um bloco `<details>` reproduz os dados essenciais em texto com links reais.
 
-### Tokens
+## Paleta
 
-| Uso | Cor |
-| --- | --- |
-| Fundo raiz | `#08090D` |
-| Painel | `#13151C` |
-| Bordas | `#34313A` |
-| Texto principal | `#F4F5F7` |
-| Texto secundário | `#A6ADB9` |
-| Vermelho de ação | `#F12A48` |
+| Papel | Dark | Light |
+| --- | --- | --- |
+| Fundo | `#080A0E` | `#F8F6F6` |
+| Superfície | `#13171C` | `#FFFFFF` |
+| Borda | `#333941` | `#CFC8CD` |
+| Texto | `#F7F8FA` | `#242229` |
+| Texto secundário | `#B8C0CA` | `#55535D` |
+| Acento vermelho | `#F03C55` | `#B52240` |
 
-Tipografia: `Inter, Segoe UI, Arial, sans-serif` para títulos e `JetBrains Mono, Consolas, Menlo, monospace` para metadados. Fontes são pilhas de fallback: nenhum serviço externo é carregado pelos SVGs.
+Tipografia com fallback local: Inter / Segoe UI / Arial, e JetBrains Mono / Consolas / Menlo para comandos. O perfil permanece legível se essas famílias não estiverem instaladas.
 
-## Mapa dos arquivos
+## Estrutura
 
 ```text
 jarodofc/
-├── README.md                    # Conteúdo semântico do perfil
-├── BRAND.md                     # Este manual
-├── hero-mr.svg                  # Identidade principal / console
-├── services-mr.svg              # Painéis vetoriais de atuação
-├── footer-mr.svg                # Chamada de contato
+├── README.md
+├── BRAND.md
 └── assets/
-    └── brand/
-        └── jarod-mark.svg      # Marca J_ isolada e reutilizável
+    ├── brand/jarod-mark.svg
+    └── visual/
+        ├── profile-dark.svg
+        ├── profile-light.svg
+        ├── link-forense-dark.svg
+        ├── link-forense-light.svg
+        ├── link-zentracast-dark.svg
+        ├── link-zentracast-light.svg
+        ├── link-trading-dark.svg
+        ├── link-trading-light.svg
+        ├── link-fly-dark.svg
+        └── link-fly-light.svg
 ```
 
-## Regras de manutenção
+## Manutenção
 
-1. **Tema preto fixo.** O mesmo conjunto visual deve ser visto no GitHub claro e escuro.
-2. **Conteúdo em Markdown.** Nomes, contexto, projetos e endereços de contato devem continuar em texto e links clicáveis. SVG é apresentação e reforço, não única fonte de informação.
-3. **Sem JavaScript embutido, imagens remotas ou animação contínua.** SVGs são autossuficientes, seguros para embedding por `<img>`.
-4. **Acessibilidade.** Use `alt` no README, `title/desc` nos vetores e tamanhos legíveis em telas pequenas.
-5. **Sem métricas artificiais.** Indicadores do terminal como `SESSION: ACTIVE` são decorativos. Nunca representar serviços externos como disponíveis sem verificação.
-6. **Manutenção dos links.** A cada alteração de domínio ou repositório, sincronize os URLs do README.
-
-## Projetos do perfil
-
-- **zFORENSE · LÚMEN:** OSINT e investigação digital com ferramentas no navegador
-- **ZentraCast:** IPTV web e integração com Web Video Caster
-- **zTRADING · AETHER:** painel web para análise de mercados
-- **zFLY · RotaClara:** comparador de voos com interface web
-
-A identidade pode ser reutilizada em novas apresentações do autor sem imitar diretamente personagens, empresas ou marcas de terceiros.
+Evite seções duplicadas ou cards de estilos diferentes fora do painel. Mantenha uma só fonte de cores para todos os vetores, preserve textos e links no README, teste visualmente claro/escuro e valide que os oito cartões de link tenham seus URLs funcionais. Indicadores visuais como `SESSION READY` são elementos ilustrativos e não status real de serviços.
