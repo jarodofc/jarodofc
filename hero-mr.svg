@@ -1,91 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" fill="none">
-  <defs>
-    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.8" fill="#FFFFFF" fill-opacity="0.045" />
-    </pattern>
-    <radialGradient id="crimsonGlow" cx="12%" cy="15%" r="50%">
-      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#0B0C10" stop-opacity="0" />
-    </radialGradient>
-    <style>
-      .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .cmd { font-size: 11.5px; font-weight: 500; fill: #64748B; }
-      .title { font-size: 23px; font-weight: 700; fill: #F8FAFC; letter-spacing: 0.6px; }
-      .subtitle { font-size: 13px; font-weight: 400; fill: #94A3B8; }
-      .quote { font-size: 13px; font-weight: 500; fill: #E11D48; }
-      .build { font-size: 10.5px; font-weight: 500; fill: #475569; letter-spacing: 1px; }
-      .meta { font-size: 12px; font-weight: 500; fill: #CBD5E1; }
-      .badge { font-size: 11px; font-weight: 600; fill: #CBD5E1; letter-spacing: 0.6px; }
-    </style>
-  </defs>
-
-  <!-- Base Surface -->
-  <rect x="1" y="1" width="838" height="218" rx="16" fill="#0B0C10" stroke="#1F242D" stroke-width="1" />
-  <rect x="1" y="1" width="838" height="218" rx="16" fill="url(#dotGrid)" />
-  <rect x="1" y="1" width="838" height="218" rx="16" fill="url(#crimsonGlow)" />
-
-  <!-- Top Crimson Accent Bar -->
-  <rect x="32" y="1" width="84" height="2.5" rx="1.25" fill="#E11D48" />
-
-  <!-- Terminal Header Row -->
-  <text x="32" y="30" class="mono cmd">
-    <tspan fill="#E11D48">root@jarodofc</tspan><tspan fill="#475569">:~# </tspan><tspan fill="#94A3B8">./init_profile.sh</tspan>
-  </text>
-
-  <!-- Active Session Pill -->
-  <rect x="652" y="14" width="156" height="24" rx="6" fill="#12151C" stroke="#1F2633" stroke-width="1" />
-  <circle cx="668" cy="26" r="3.5" fill="#22C55E">
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite" />
-  </circle>
-  <text x="681" y="29.5" class="mono badge">SESSION: ACTIVE</text>
-
-  <!-- Hairline Divider -->
-  <line x1="1" y1="48" x2="839" y2="48" stroke="#181C24" stroke-width="1" />
-
-  <!-- Monogram Container (Material Tonal + Terminal Prompt) -->
-  <rect x="32" y="68" width="60" height="60" rx="14" fill="#131115" stroke="#3B1A24" stroke-width="1" />
-  <!-- Geometric Vector J_ -->
-  <path d="M58 84V102C58 106.4 54.4 110 50 110H47C45.3 110 44 108.7 44 107" stroke="#F8FAFC" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
-  <rect x="64" y="106" width="13" height="2.8" rx="1" fill="#E11D48">
-    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite" />
-  </rect>
-
-  <!-- Identity -->
-  <text x="110" y="94" class="sans title">JAROD M M JR</text>
-  <text x="110" y="118" class="sans subtitle">Consultoria Automotiva  //  Soluções Digitais  //  Web &amp; Automação</text>
-
-  <!-- Right Mr. Robot Nod -->
-  <text x="808" y="92" text-anchor="end" class="mono quote">hello, friend.</text>
-  <text x="808" y="115" text-anchor="end" class="mono build">BUILD // MATERIAL_UX</text>
-
-  <!-- Hairline Divider -->
-  <line x1="32" y1="152" x2="808" y2="152" stroke="#181C24" stroke-width="1" />
-
-  <!-- Metadata Row -->
-  <!-- Location -->
-  <g transform="translate(32, 174)">
-    <path d="M8 16C8 16 13.5 11.5 13.5 7.2C13.5 4.2 11 1.8 8 1.8C5 1.8 2.5 4.2 2.5 7.2C2.5 11.5 8 16 8 16Z" stroke="#E11D48" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="8" cy="7.2" r="2" stroke="#E11D48" stroke-width="1.5" />
-    <text x="24" y="12.5" class="mono meta">Belo Horizonte, MG</text>
-  </g>
-
-  <!-- Website -->
-  <g transform="translate(248, 174)">
-    <circle cx="8" cy="8.5" r="6.5" stroke="#94A3B8" stroke-width="1.5" />
-    <path d="M1.5 8.5H14.5M8 2C9.8 3.8 10.8 6.1 10.8 8.5C10.8 10.9 9.8 13.2 8 15C6.2 13.2 5.2 10.9 5.2 8.5C5.2 6.1 6.2 3.8 8 2Z" stroke="#94A3B8" stroke-width="1.4" />
-    <text x="24" y="12.5" class="mono meta">jarod.com.br</text>
-  </g>
-
-  <!-- Handle -->
-  <g transform="translate(414, 174)">
-    <path d="M2.5 4.5L6.5 8.5L2.5 12.5" stroke="#22C55E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-    <line x1="8.5" y1="12.5" x2="14" y2="12.5" stroke="#22C55E" stroke-width="1.6" stroke-linecap="round" />
-    <text x="24" y="12.5" class="mono meta">@jarodofc</text>
-  </g>
-
-  <!-- System Status Tag -->
-  <rect x="680" y="170" width="128" height="26" rx="6" fill="#12151C" stroke="#1F2633" stroke-width="1" />
-  <rect x="693" y="180" width="6" height="6" rx="1" fill="#E11D48" />
-  <text x="708" y="187" class="mono" font-size="11" font-weight="500" fill="#94A3B8">SYS // ONLINE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310" role="img" aria-labelledby="title desc">
+<title id="title">Jarod M. M. Jr. | Portfólio</title>
+<desc id="desc">Identidade visual de Jarod M. M. Jr., consultoria automotiva, design digital e automação em Belo Horizonte.</desc>
+<defs>
+  <linearGradient id="hdbase" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090E19"/><stop offset="1" stop-color="#182440"/></linearGradient>
+  <linearGradient id="hdaccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF5579"/><stop offset="1" stop-color="#7BA8FF"/></linearGradient>
+  <linearGradient id="hdglass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#233151" stop-opacity=".95"/><stop offset="1" stop-color="#111B31" stop-opacity=".56"/></linearGradient>
+  <radialGradient id="hdorb"><stop stop-color="#7BA8FF" stop-opacity=".22"/><stop offset="1" stop-color="#7BA8FF" stop-opacity="0"/></radialGradient>
+  <pattern id="hdgrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8794B3" stroke-width=".65" opacity=".11"/></pattern>
+  <clipPath id="hdclip"><rect x="1" y="1" width="958" height="308" rx="25"/></clipPath>
+</defs>
+<rect x="1" y="1" width="958" height="308" rx="25" fill="url(#hdbase)" stroke="#33415C" stroke-width="1.3"/>
+<g clip-path="url(#hdclip)">
+  <rect x="0" y="0" width="960" height="310" fill="url(#hdgrid)"/>
+  <circle cx="795" cy="123" r="225" fill="url(#hdorb)"/>
+  <circle cx="971" cy="270" r="155" stroke="#7BA8FF" stroke-opacity=".16" stroke-width="1"/>
+  <circle cx="970" cy="270" r="195" stroke="#FF5579" stroke-opacity=".11" stroke-width="1"/>
+  <path d="M0 307H960" stroke="#FF5579" stroke-width="4" stroke-opacity=".95"/>
+</g>
+<circle cx="48" cy="37" r="4.5" fill="#FF5579"/>
+<circle cx="66" cy="37" r="4.5" fill="#7BA8FF" opacity=".72"/>
+<circle cx="84" cy="37" r="4.5" fill="#90A2C1" opacity=".45"/>
+<text x="108" y="42" font-family="Consolas,Menlo,monospace" font-size="13" font-weight="600" letter-spacing="2" fill="#90A2C1">JAROD / PROFILE</text>
+<text x="909" y="42" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="12.5" letter-spacing="1.4" fill="#90A2C1">BELO HORIZONTE · BR</text>
+<line x1="48" y1="64" x2="912" y2="64" stroke="#33415C" stroke-opacity=".85"/>
+<rect x="48" y="96" width="8" height="27" rx="4" fill="url(#hdaccent)"/>
+<text x="70" y="115" font-family="Consolas,Menlo,monospace" font-size="13.5" font-weight="600" letter-spacing="2" fill="#FF5579">CREATIVE ENGINEERING</text>
+<text x="47" y="188" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="53" font-weight="750" letter-spacing="-1.8" fill="#F7FAFF">Jarod M. M. Jr.</text>
+<text x="50" y="226" font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="21.5" font-weight="500" fill="#BBC8DD">Tecnologia, design e soluções sob medida.</text>
+<text x="50" y="274" font-family="Consolas,Menlo,monospace" font-size="13.5" letter-spacing=".5" fill="#90A2C1"><tspan fill="#FF5579">&gt;</tspan> web / automação / consultoria automotiva <tspan fill="#FF5579">_</tspan></text>
+<g transform="translate(738 89)">
+  <rect width="170" height="170" rx="37" fill="url(#hdglass)" stroke="#33415C" stroke-width="1.3"/>
+  <rect x="13" y="13" width="144" height="144" rx="27" fill="none" stroke="#90A2C1" stroke-opacity=".19"/>
+  <path d="M73 43V99C73 116 63 125 47 125H42" fill="none" stroke="#F7FAFF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94 125H127" fill="none" stroke="#FF5579" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="132" cy="48" r="6" fill="#FF5579"/>
+  <path d="M29 30h19M30 30v19M142 121v18h-18" stroke="#7BA8FF" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+</g>
 </svg>
