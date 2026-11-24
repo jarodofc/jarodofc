@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">JAROD.SYSTEM</title><desc id="desc">Identidade hacker cinematográfica com ondas abstratas de luz e movimento suave.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080a0f"/><stop offset="1" stop-color="#15121d"/></linearGradient><linearGradient id="wave" x2="1"><stop stop-color="#e32952" stop-opacity="0"/><stop offset=".5" stop-color="#f54c65" stop-opacity=".5"/><stop offset="1" stop-color="#e32952" stop-opacity="0"/></linearGradient><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#f0f2f7" stroke-opacity=".045"/></pattern></defs>
+<rect width="960" height="360" rx="18" fill="url(#bg)"/><rect width="960" height="360" rx="18" fill="url(#grid)"/>
+<g fill="none" stroke="url(#wave)" stroke-width="1.7">
+<path d="M-90 246Q90 140 260 240T610 245T1040 192"><animate attributeName="d" dur="11s" repeatCount="indefinite" values="M-90 246Q90 140 260 240T610 245T1040 192;M-90 221Q90 292 260 218T610 175T1040 240;M-90 246Q90 140 260 240T610 245T1040 192"/></path>
+<path d="M-90 258Q80 167 260 252T620 260T1040 205" opacity=".65"><animate attributeName="opacity" values=".3;.8;.3" dur="7s" repeatCount="indefinite"/></path>
+<path d="M-90 273Q100 190 270 265T640 268T1040 220" opacity=".38"/>
+</g>
+<g font-family="Consolas,Menlo,monospace"><text x="52" y="56" fill="#f24b67" font-size="15" letter-spacing="3">●  SYSTEM ONLINE</text><text x="52" y="155" fill="#f6f6fa" font-size="68" font-weight="700" letter-spacing="-3">JAROD<tspan fill="#f24b67">_</tspan></text><text x="52" y="192" fill="#b6aebc" font-size="16" letter-spacing="4">DESIGN  /  CODE  /  INTELLIGENCE</text><text x="52" y="312" fill="#737783" font-size="13" letter-spacing="2">ROOT@JAROD:~$ ./BUILD_THE_FUTURE</text></g>
+<circle cx="885" cy="56" r="5" fill="#ef4567"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
+<style>@media (prefers-reduced-motion: reduce){animate{display:none}}</style>
+<g aria-label="Silhueta de detetive clássico com chapéu e cachimbo, inspirada em Sherlock Holmes" transform="translate(627 27)">
+<circle cx="159" cy="151" r="126" fill="#1b101b" opacity=".62" stroke="#6d2940" stroke-width="1.5"/>
+<circle cx="159" cy="151" r="110" fill="none" stroke="#d3385b" stroke-width="1" stroke-opacity=".18" stroke-dasharray="4 9"/>
+<path d="M17 300 Q29 248 80 236 L105 212 L200 213 Q272 232 292 300 Z" fill="#050609" stroke="#a83c55" stroke-width="2"/>
+<path d="M110 229 L144 281 L165 230 M202 228 L178 283 L164 233" fill="#18141c" stroke="#a43654" stroke-width="2"/>
+<path d="M111 121 Q104 145 113 172 Q102 193 123 211 L157 234 Q193 233 210 201 L220 184 L238 179 L228 170 L213 170 Q220 140 199 119 Z" fill="#050609" stroke="#ad4760" stroke-width="2.3"/>
+<path d="M104 123 L94 109 L116 88 L140 77 L174 75 L199 91 L219 119 Q175 129 104 123Z" fill="#06070a" stroke="#bd4964" stroke-width="2.5"/>
+<path d="M77 119 Q159 98 233 116 Q218 131 180 134 L112 135 Z" fill="#050609" stroke="#b94964" stroke-width="2"/>
+<path d="M115 86 Q140 48 174 69 L195 94" fill="none" stroke="#dc5476" stroke-width="2" opacity=".55"/>
+<path d="M216 183 Q241 179 245 188 L242 208 Q241 218 260 218 L285 218" fill="none" stroke="#f06886" stroke-width="6" stroke-linecap="round"/>
+<path d="M281 210 H304 Q309 210 306 220 L279 229 Q274 223 281 210" fill="#08090c" stroke="#f06886" stroke-width="2"/>
+<path d="M286 199 Q276 186 289 172 M298 201 Q291 182 303 165" fill="none" stroke="#dc5174" stroke-opacity=".46" stroke-width="2" stroke-linecap="round"><animate attributeName="stroke-opacity" values=".12;.56;.12" dur="5s" repeatCount="indefinite"/></path>
+<path d="M102 250 L84 299 M205 239 L243 298" fill="none" stroke="#772b43" stroke-width="2"/>
+</g></svg>
