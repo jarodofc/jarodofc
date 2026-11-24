@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/visual/hero-fluid.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com ondas abstratas de luz em movimento">
+<img src="./assets/visual/hero-ascii-gokublack-v2.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com ondas abstratas de luz em movimento">
 
 <a href="https://github.com/jarodofc/zFORENSE"><img src="./assets/visual/feature-forense.svg" width="100%" alt="zFORENSE LÚMEN: investigação e análise forense digital"></a>
 <a href="https://github.com/jarodofc/ZentraCast"><img src="./assets/visual/feature-zentracast.svg" width="100%" alt="ZentraCast: streaming e Web Video Caster"></a>
