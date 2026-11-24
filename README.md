@@ -8,6 +8,8 @@
 
 ### `JAROD.SYSTEM` <sup>● ONLINE</sup>
 
+<a href="https://jarod.com.br" title="Website"><img src="https://img.shields.io/badge/WEB-111827?style=for-the-badge&logo=googlechrome&logoColor=F43F5E" alt="Website" height="35"></a>&nbsp;<a href="mailto:contato@jarod.com.br" title="E-mail"><img src="https://img.shields.io/badge/MAIL-111827?style=for-the-badge&logo=gmail&logoColor=F43F5E" alt="E-mail" height="35"></a>&nbsp;<a href="https://instagram.com/jarodofc" title="Instagram"><img src="https://img.shields.io/badge/IG-111827?style=for-the-badge&logo=instagram&logoColor=F43F5E" alt="Instagram" height="35"></a>&nbsp;<a href="https://github.com/jarodofc?tab=repositories" title="GitHub"><img src="https://img.shields.io/badge/GH-111827?style=for-the-badge&logo=github&logoColor=F43F5E" alt="GitHub" height="35"></a>
+
 **Tecnologia aplicada a problemas reais. Interfaces com identidade. Sistemas com propósito.**
 
 `DESIGN`  ·  `WEB ENGINEERING`  ·  `AUTOMATION`  ·  `DIGITAL INTELLIGENCE`
@@ -72,7 +74,7 @@ Projetos, parcerias, produtos digitais ou consultoria: **a primeira conexão com
 
 <div align="center">
 
-[**🌐 Website**](https://jarod.com.br) &nbsp;·&nbsp; [**✉ E-mail**](mailto:contato@jarod.com.br) &nbsp;·&nbsp; [**◎ Instagram**](https://instagram.com/jarodofc) &nbsp;·&nbsp; [**⌘ Repositórios**](https://github.com/jarodofc?tab=repositories)
+<a href="https://jarod.com.br" title="Website"><img src="https://img.shields.io/badge/WEB-111827?style=for-the-badge&logo=googlechrome&logoColor=F43F5E" alt="Website" height="35"></a>&nbsp;<a href="mailto:contato@jarod.com.br" title="E-mail"><img src="https://img.shields.io/badge/MAIL-111827?style=for-the-badge&logo=gmail&logoColor=F43F5E" alt="E-mail" height="35"></a>&nbsp;<a href="https://instagram.com/jarodofc" title="Instagram"><img src="https://img.shields.io/badge/IG-111827?style=for-the-badge&logo=instagram&logoColor=F43F5E" alt="Instagram" height="35"></a>&nbsp;<a href="https://github.com/jarodofc?tab=repositories" title="GitHub"><img src="https://img.shields.io/badge/GH-111827?style=for-the-badge&logo=github&logoColor=F43F5E" alt="GitHub" height="35"></a>
 
 <sub>`JAROD.SYSTEM / DESIGN × CODE × INTELLIGENCE`</sub>
 
