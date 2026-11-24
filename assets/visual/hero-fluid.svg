@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">JAROD.SYSTEM</title><desc id="desc">Identidade hacker cinematográfica com ondas abstratas de luz e movimento suave.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080a0f"/><stop offset="1" stop-color="#15121d"/></linearGradient><linearGradient id="wave" x2="1"><stop stop-color="#e32952" stop-opacity="0"/><stop offset=".5" stop-color="#f54c65" stop-opacity=".5"/><stop offset="1" stop-color="#e32952" stop-opacity="0"/></linearGradient><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#f0f2f7" stroke-opacity=".045"/></pattern></defs>
+<rect width="960" height="360" rx="18" fill="url(#bg)"/><rect width="960" height="360" rx="18" fill="url(#grid)"/>
+<g fill="none" stroke="url(#wave)" stroke-width="1.7">
+<path d="M-90 246Q90 140 260 240T610 245T1040 192"><animate attributeName="d" dur="11s" repeatCount="indefinite" values="M-90 246Q90 140 260 240T610 245T1040 192;M-90 221Q90 292 260 218T610 175T1040 240;M-90 246Q90 140 260 240T610 245T1040 192"/></path>
+<path d="M-90 258Q80 167 260 252T620 260T1040 205" opacity=".65"><animate attributeName="opacity" values=".3;.8;.3" dur="7s" repeatCount="indefinite"/></path>
+<path d="M-90 273Q100 190 270 265T640 268T1040 220" opacity=".38"/>
+</g>
+<g font-family="Consolas,Menlo,monospace"><text x="52" y="56" fill="#f24b67" font-size="15" letter-spacing="3">●  SYSTEM ONLINE</text><text x="52" y="155" fill="#f6f6fa" font-size="68" font-weight="700" letter-spacing="-3">JAROD<tspan fill="#f24b67">_</tspan></text><text x="52" y="192" fill="#b6aebc" font-size="16" letter-spacing="4">DESIGN  /  CODE  /  INTELLIGENCE</text><text x="52" y="312" fill="#737783" font-size="13" letter-spacing="2">ROOT@JAROD:~$ ./BUILD_THE_FUTURE</text></g>
+<circle cx="885" cy="56" r="5" fill="#ef4567"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
+<style>@media (prefers-reduced-motion: reduce){animate{display:none}}</style>
+</svg>
