@@ -9,7 +9,7 @@
 <text x="44" y="157" fill="#fff8fa" font-family="Arial,sans-serif" font-weight="800" font-size="84" letter-spacing="-4">JAROD<tspan fill="#ff557a">_</tspan></text>
 <text x="49" y="193" fill="#bdb3bf" font-family="monospace" font-size="16" letter-spacing="2">DESIGN / CODE / INTELLIGENCE</text>
 <g opacity="0"><rect x="70" y="188" width="490" height="4" fill="#ff4b83"/><animate attributeName="opacity" values="0;0;.8;0;0;0" dur="6s" repeatCount="indefinite"/></g><!-- Pyramid and eye, clean vector artwork -->
-<g transform="translate(822 150)" aria-label="Pirâmide com olho">
+<g transform="translate(822 150) scale(0.72)" aria-label="Pirâmide com olho">
 <path d="M0 -117 123 105H-123Z" fill="#15131d" stroke="#faf1f5" stroke-width="7" stroke-linejoin="round"/>
 <path d="M0 -93 99 92H-99Z" fill="none" stroke="#fa6184" stroke-width="2.8" stroke-linejoin="round" opacity=".85"/>
 <path d="M-70 16Q0 -51 70 16Q0 80 -70 16Z" fill="#f5edf2" stroke="#ff6388" stroke-width="3.5" stroke-linejoin="round"/>
