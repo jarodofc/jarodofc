@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/visual/hero-anonymous-services-v4.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com máscara Anonymous e serviços organizados em categorias">
+<img src="./assets/visual/hero-anonymous-glitch-v5.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com máscara Anonymous e serviços organizados em categorias">
 
 <a href="https://github.com/jarodofc/zFORENSE"><img src="./assets/visual/feature-forense.svg" width="100%" alt="zFORENSE LÚMEN: investigação e análise forense digital"></a>
 <a href="https://github.com/jarodofc/ZentraCast"><img src="./assets/visual/feature-zentracast.svg" width="100%" alt="ZentraCast: streaming e Web Video Caster"></a>
