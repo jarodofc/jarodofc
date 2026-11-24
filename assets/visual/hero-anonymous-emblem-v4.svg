@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+<title id="t">JAROD.SYSTEM | Anonymous</title>
+<desc id="d">JAROD_ com emblema Anonymous vetorial inspirado na imagem enviada, e efeito glitch discreto.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b12"/><stop offset="1" stop-color="#1c111f"/></linearGradient><linearGradient id="glow"><stop stop-color="#f34c74" stop-opacity="0"/><stop offset=".5" stop-color="#f34c74" stop-opacity=".5"/><stop offset="1" stop-color="#f34c74" stop-opacity="0"/></linearGradient></defs>
+<rect width="960" height="300" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="url(#glow)" stroke-width="2" opacity=".65">
+<path d="M0 225Q190 120 385 230T960 205"><animate attributeName="opacity" values=".4;.8;.4" dur="9s" repeatCount="indefinite"/></path><path d="M0 245Q190 160 410 244T960 220" opacity=".45"/></g>
+<text x="44" y="55" fill="#ff6c8a" font-family="monospace" font-size="13" letter-spacing="3">● JAROD.SYSTEM</text>
+<text x="44" y="157" fill="#fff8fa" font-family="Arial,sans-serif" font-weight="800" font-size="84" letter-spacing="-4">JAROD<tspan fill="#ff557a">_</tspan></text>
+<text x="49" y="193" fill="#bdb3bf" font-family="monospace" font-size="16" letter-spacing="2">DESIGN / CODE / INTELLIGENCE</text>
+<g opacity="0"><rect x="70" y="188" width="490" height="4" fill="#ff4b83"/><animate attributeName="opacity" values="0;0;.8;0;0;0" dur="6s" repeatCount="indefinite"/></g><!-- Anonymous emblem vector interpretation of supplied reference -->
+<g transform="translate(820 150) scale(.94)" aria-label="Emblema Anonymous: globo, louros, figura sem cabeça e interrogação">
+<circle r="126" fill="#f8f7f7"/>
+<circle r="103" fill="none" stroke="#b4b4b4" stroke-width="4"/>
+<ellipse rx="55" ry="103" fill="none" stroke="#b4b4b4" stroke-width="4"/>
+<path d="M-103 0H103M-92-45Q0-15 92-45M-92 45Q0 15 92 45M0-103V103" fill="none" stroke="#b4b4b4" stroke-width="4"/>
+<g fill="#111"><path d="M-102 92Q-100 46-70 31L-25 21Q-12 8 0 8Q12 8 25 21L70 31Q100 46 102 92V130H-102Z"/></g>
+<path d="M-26 15Q-6 28 0 52Q6 28 26 15L15 8Q0 2-15 8Z" fill="#fff"/>
+<path d="M-8 26L0 35 8 26 3 51 11 93H-11L-3 51Z" fill="#fff"/>
+<text x="0" y="-11" font-family="Georgia,serif" text-anchor="middle" font-weight="bold" font-size="85" fill="#111">?</text>
+<g transform="scale(.98)" opacity=".99"><ellipse cx="-96" cy="132" rx="6" ry="17" transform="rotate(-20 -96 132)" fill="#f5f4f3"/><ellipse cx="-102.50561835020653" cy="144" rx="6" ry="17" transform="rotate(-22 -102.50561835020653 144)" fill="#f5f4f3"/><ellipse cx="-108.0208152801713" cy="156" rx="6" ry="17" transform="rotate(-24 -108.0208152801713 156)" fill="#f5f4f3"/><ellipse cx="-111.70595205269187" cy="168" rx="6" ry="17" transform="rotate(-26 -111.70595205269187 168)" fill="#f5f4f3"/><ellipse cx="-113" cy="180" rx="6" ry="17" transform="rotate(-28 -113 180)" fill="#f5f4f3"/><ellipse cx="-111.70595205269187" cy="192" rx="6" ry="17" transform="rotate(-30 -111.70595205269187 192)" fill="#f5f4f3"/><ellipse cx="-108.0208152801713" cy="204" rx="6" ry="17" transform="rotate(-32 -108.0208152801713 204)" fill="#f5f4f3"/><ellipse cx="-102.50561835020653" cy="216" rx="6" ry="17" transform="rotate(-34 -102.50561835020653 216)" fill="#f5f4f3"/><ellipse cx="-96" cy="228" rx="6" ry="17" transform="rotate(-36 -96 228)" fill="#f5f4f3"/><ellipse cx="96" cy="132" rx="6" ry="17" transform="rotate(20 96 132)" fill="#f5f4f3"/><ellipse cx="102.50561835020653" cy="144" rx="6" ry="17" transform="rotate(22 102.50561835020653 144)" fill="#f5f4f3"/><ellipse cx="108.0208152801713" cy="156" rx="6" ry="17" transform="rotate(24 108.0208152801713 156)" fill="#f5f4f3"/><ellipse cx="111.70595205269187" cy="168" rx="6" ry="17" transform="rotate(26 111.70595205269187 168)" fill="#f5f4f3"/><ellipse cx="113" cy="180" rx="6" ry="17" transform="rotate(28 113 180)" fill="#f5f4f3"/><ellipse cx="111.70595205269187" cy="192" rx="6" ry="17" transform="rotate(30 111.70595205269187 192)" fill="#f5f4f3"/><ellipse cx="108.0208152801713" cy="204" rx="6" ry="17" transform="rotate(32 108.0208152801713 204)" fill="#f5f4f3"/><ellipse cx="102.50561835020653" cy="216" rx="6" ry="17" transform="rotate(34 102.50561835020653 216)" fill="#f5f4f3"/><ellipse cx="96" cy="228" rx="6" ry="17" transform="rotate(36 96 228)" fill="#f5f4f3"/></g>
+<circle r="126" fill="none" stroke="#fff" stroke-width="6"/>
+<path d="M-116-29V-8M111 23v22" stroke="#ff597a" stroke-width="4" opacity="0"><animate attributeName="opacity" values="0;0;.75;0;0" dur="8s" repeatCount="indefinite"/></path>
+</g>
+<style>@media(prefers-reduced-motion:reduce){animate{display:none}}</style></svg>
