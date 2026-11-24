@@ -1,8 +1,11 @@
 <div align="center">
 
-<table align="center"><tr><td width="70%" valign="middle"><img src="./assets/visual/hero-glitch-title-v1.svg" alt="JAROD_ com ondas de luz animadas" width="100%"></td><td width="30%" valign="middle"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Anonymous_mask.svg" alt="Máscara Anonymous Guy Fawkes original, vetor Openclipart em domínio público" width="100%"></td></tr></table>
+<p align="center">
+<a href="https://github.com/jarodofc?tab=repositories" title="Explorar os projetos"><img src="./assets/visual/hero-glitch-title-v1.svg" alt="JAROD_, abrir projetos" width="68%"></a>
+<a href="https://commons.wikimedia.org/wiki/File:Anonymous_mask.svg" title="Ver a arte vetorial da máscara Anonymous"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Anonymous_mask.svg" alt="Máscara Anonymous, abrir fonte da arte" width="28%"></a>
+</p>
 
-<img src="./assets/visual/services-categories-v1.svg" alt="Serviços: ATPV, CRLV, comunicado de venda, transferência, consultas veiculares, web design e vibe coding" width="100%">
+<a href="https://jarod.com.br" title="Conhecer os serviços de despachante, consulta veicular e desenvolvimento"><img src="./assets/visual/services-categories-v1.svg" alt="Serviços: ATPV, CRLV, comunicado de venda, transferência, consultas veiculares, web design e vibe coding" width="100%"></a>
 
 <a href="https://github.com/jarodofc/zFORENSE"><img src="./assets/visual/feature-forense.svg" width="100%" alt="zFORENSE LÚMEN: investigação e análise forense digital"></a>
 <a href="https://github.com/jarodofc/ZentraCast"><img src="./assets/visual/feature-zentracast.svg" width="100%" alt="ZentraCast: streaming e Web Video Caster"></a>
