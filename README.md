@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/visual/hero-sherlock-silhouette.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com detetive de chapéu e cachimbo em silhueta e ondas abstratas">
+<img src="./assets/visual/hero-detective-ascii-v3.svg" width="100%" alt="JAROD.SYSTEM: identidade tecnológica com retrato de detetive em caracteres ASCII e ondas abstratas">
 
 <a href="https://github.com/jarodofc/zFORENSE"><img src="./assets/visual/feature-forense.svg" width="100%" alt="zFORENSE LÚMEN: investigação e análise forense digital"></a>
 <a href="https://github.com/jarodofc/ZentraCast"><img src="./assets/visual/feature-zentracast.svg" width="100%" alt="ZentraCast: streaming e Web Video Caster"></a>
