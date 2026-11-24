@@ -3,38 +3,84 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/visual/profile-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/visual/profile-light.svg">
-  <img src="./assets/visual/profile-dark.svg" alt="Jarod M. M. Jr.: perfil de tecnologia, design, automação e consultoria automotiva. Um painel integrado com quatro áreas de atuação, quatro projetos e contato." width="100%">
+  <img src="./assets/visual/profile-dark.svg" alt="JAROD.SYSTEM | Tecnologia, design, automação e soluções digitais" width="100%">
 </picture>
 
-<a href="https://github.com/jarodofc/zFORENSE"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-forense-light.svg"><img width="48%" src="./assets/visual/link-forense-dark.svg" alt="Abrir zFORENSE"></picture></a>&nbsp;<a href="https://github.com/jarodofc/ZentraCast"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-zentracast-light.svg"><img width="48%" src="./assets/visual/link-zentracast-dark.svg" alt="Abrir ZentraCast"></picture></a>
+### `JAROD.SYSTEM` <sup>● ONLINE</sup>
 
-<a href="https://github.com/jarodofc/zTRADING"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-trading-light.svg"><img width="48%" src="./assets/visual/link-trading-dark.svg" alt="Abrir zTRADING"></picture></a>&nbsp;<a href="https://github.com/jarodofc/zFLY"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-fly-light.svg"><img width="48%" src="./assets/visual/link-fly-dark.svg" alt="Abrir zFLY"></picture></a>
+**Tecnologia aplicada a problemas reais. Interfaces com identidade. Sistemas com propósito.**
 
-<a href="https://jarod.com.br">Website</a> &nbsp;·&nbsp; <a href="mailto:contato@jarod.com.br">E-mail</a> &nbsp;·&nbsp; <a href="https://instagram.com/jarodofc">Instagram</a> &nbsp;·&nbsp; <a href="https://github.com/jarodofc?tab=repositories">Todos os projetos</a>
+`DESIGN`  ·  `WEB ENGINEERING`  ·  `AUTOMATION`  ·  `DIGITAL INTELLIGENCE`
+
+[**Projetos**](#-projetos-em-destaque) &nbsp;·&nbsp; [**Sobre**](#-sobre) &nbsp;·&nbsp; [**Especialidades**](#-especialidades) &nbsp;·&nbsp; [**Contato**](#-estabelecer-conexão)
+
+</div>
+
+---
+
+### `> whoami` <a id="-sobre"></a>
+
+Sou **Jarod M. M. Jr.**, de **Belo Horizonte, MG**. Conecto consultoria automotiva, desenvolvimento web, design de interfaces e automação para transformar processos complexos em experiências digitais mais claras, rápidas e funcionais.
+
+Meu trabalho combina **investigação, engenharia e experiência do usuário**. Cada projeto parte de um problema específico, recebe uma identidade própria e integra um ecossistema visual e técnico consistente.
+
+```text
+┌─ JAROD.SYSTEM ──────────────────────────────────┐
+│  STATUS      ● ACTIVE                          │
+│  LOCATION    Belo Horizonte / BR               │
+│  FOCUS       Build · Analyze · Automate        │
+│  PRINCIPLE   Clarity in every interaction      │
+└─────────────────────────────────────────────────┘
+```
+
+### `> ls ./projects` <a id="-projetos-em-destaque"></a>
+
+Os quatro produtos abaixo fazem parte do mesmo portfólio. **Cada cartão contém sua identificação visual e abre o repositório correspondente.**
+
+<div align="center">
+
+<a href="https://github.com/jarodofc/zFORENSE"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-forense-light.svg"><img width="48%" src="./assets/visual/link-forense-dark.svg" alt="zFORENSE · LÚMEN | OSINT, investigação e análise forense digital"></picture></a>&nbsp;<a href="https://github.com/jarodofc/ZentraCast"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-zentracast-light.svg"><img width="48%" src="./assets/visual/link-zentracast-dark.svg" alt="ZentraCast | Plataforma web de IPTV e streaming"></picture></a>
+
+<a href="https://github.com/jarodofc/zTRADING"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-trading-light.svg"><img width="48%" src="./assets/visual/link-trading-dark.svg" alt="zTRADING · AETHER | Mercados, gráficos e indicadores"></picture></a>&nbsp;<a href="https://github.com/jarodofc/zFLY"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/visual/link-fly-light.svg"><img width="48%" src="./assets/visual/link-fly-dark.svg" alt="zFLY · RotaClara | Busca e comparação de voos"></picture></a>
+
+</div>
+
+| Projeto | Missão | Explorar |
+| :--- | :--- | :--- |
+| **◈ zFORENSE · LÚMEN** | Investigação digital, OSINT e análise forense. | [Acessar código](https://github.com/jarodofc/zFORENSE) |
+| **▣ ZentraCast** | Experiências web para IPTV, HLS e Web Video Caster. | [Acessar código](https://github.com/jarodofc/ZentraCast) |
+| **⌁ zTRADING · AETHER** | Visualização de mercados e indicadores. | [Acessar código](https://github.com/jarodofc/zTRADING) |
+| **✈ zFLY · RotaClara** | Pesquisa e comparação de voos. | [Acessar código](https://github.com/jarodofc/zFLY) |
+
+### `> cat capabilities.md` <a id="-especialidades"></a>
+
+**⌘ Engenharia web e UI/UX**  
+Interfaces responsivas, sistemas visuais, experiências acessíveis e aplicações orientadas à usabilidade.
+
+**⚙ Automação e integração**  
+Fluxos de trabalho, conexões entre serviços, APIs e ferramentas para reduzir tarefas repetitivas.
+
+**◈ Análise e investigação digital**  
+Organização de informações, ferramentas de pesquisa, análise de dados e aplicações forenses.
+
+**◇ Consultoria e soluções automotivas**  
+Curadoria de seminovos, documentação veicular, simulações de financiamento e soluções de proteção.
+
+### `> connect --secure` <a id="-estabelecer-conexão"></a>
+
+Projetos, parcerias, produtos digitais ou consultoria: **a primeira conexão começa por uma conversa.**
+
+<div align="center">
+
+[**🌐 Website**](https://jarod.com.br) &nbsp;·&nbsp; [**✉ E-mail**](mailto:contato@jarod.com.br) &nbsp;·&nbsp; [**◎ Instagram**](https://instagram.com/jarodofc) &nbsp;·&nbsp; [**⌘ Repositórios**](https://github.com/jarodofc?tab=repositories)
+
+<sub>`JAROD.SYSTEM / DESIGN × CODE × INTELLIGENCE`</sub>
 
 </div>
 
 <details>
-<summary><strong>Perfil, serviços e projetos em texto acessível</strong></summary>
+<summary><strong>Notas de interface e acessibilidade</strong></summary>
 
-### Jarod M. M. Jr.
-
-Em **Belo Horizonte, MG**, conecto consultoria automotiva e soluções digitais. Desenvolvo interfaces, automações e ferramentas web com foco em clareza e funcionalidade.
-
-### Áreas de atuação
-
-- Consultoria automotiva: compra, venda e curadoria de seminovos.
-- Documentação veicular: CRLV, ATPV-e, comunicação de venda e regularização em MG.
-- Financiamento e proteção: apoio em simulações e soluções de proteção veicular.
-- Web, UI e automação: sites, aplicações e ferramentas digitais.
-
-### Repositórios
-
-- [zFORENSE · LÚMEN](https://github.com/jarodofc/zFORENSE): investigação digital, OSINT e análise forense.
-- [ZentraCast](https://github.com/jarodofc/ZentraCast): IPTV web, HLS e Web Video Caster.
-- [zTRADING · AETHER](https://github.com/jarodofc/zTRADING): visualização de mercados e indicadores.
-- [zFLY · RotaClara](https://github.com/jarodofc/zFLY): comparação de voos.
-
-**Contato:** [contato@jarod.com.br](mailto:contato@jarod.com.br)
+Este perfil usa SVGs vetoriais com versões para os temas claro e escuro, selecionadas por `prefers-color-scheme`. Microanimações podem ser incluídas nos próprios SVGs quando o renderizador do GitHub permitir; a leitura e os links não dependem de animação. O Markdown mantém as informações acessíveis mesmo se imagens externas falharem.
 
 </details>
